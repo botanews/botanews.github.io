@@ -33,7 +33,13 @@ body {
       100% { transform: translate(5%,0) }
   }
 
-.maintext {
+h1 {
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    border-radius: 28px;
+    background-color: transparent;
+    color: white;
 }
