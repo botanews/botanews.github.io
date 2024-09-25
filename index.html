@@ -6,7 +6,7 @@
     <meta name="description" content="Welcome to BotaNews! Botama's official news archiving service, and our newspaper provider!">
     <link rel="stylesheet" href="index.css">
     <title>BotaNews - A Microtel Company.</title>
-
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="bg"></div>
@@ -17,15 +17,17 @@
 
             <br><br><br><br><br><br>
             <div class="buttons">
-                <button>
+                <button onclick="buttonclick(1)">
                     <h1>Todays Paper</h1>
                 </button>
                 <br><br><br><br>
-                <button>
-                    <h1>Archive</h1>
-                </button>
+                <a href="archive.html">
+                    <button onclick="buttonclick(2)">
+                        <h1> Archive </h1>
+                    </button>
+                </a>
                 <br><br><br><br>
-                <button>
+                <button onclick="buttonclick(3)">
                     <h1>I'm feeling lucky</h1>
                 </button>
             </div>
@@ -33,5 +35,6 @@
             
         </center>
     </div>
+    
 </body>
 </html>
